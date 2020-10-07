@@ -1,0 +1,19 @@
+Package: ILovePackages
+Title: Demonstration of Packages
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Nate",
+           family = "Edelman",
+           role = c("aut", "cre"),
+           email = "nathaniel.edelman@yale.edu",
+		)
+Description: A practice package so people can make their own!
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends:
+	ape,
+	ABCp2
