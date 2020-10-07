@@ -2,5 +2,5 @@
 
 export(hello)
 export(hello_2)
-export(ipak)
+export(mypak)
 export(readTextTree)

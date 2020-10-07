@@ -5,11 +5,11 @@
 #' @param packages A vector of packages
 #' @return all packages will be installed if necessary and possible, and loaded. Returns TRUE if successful for each package
 #' @examples
-#' ipak(c("ggplot2","dplyr"))
+#' mypak(c("ggplot2","dplyr"))
 #' @export
 #'
 
-ipak <- function(packages){
+mypak <- function(packages){
   new.packages <- packages[!(packages %in% installed.packages()[, "Package"])]
   if (length(new.packages))
     install.packages(new.packages, dependencies = TRUE)
